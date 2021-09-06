@@ -15,7 +15,8 @@ html
                 button sort
         for val in allstudents
             tr 
-                td #{val.name}
+                td 
+                    a(href=`/student/details/${val.name}`)  #{val.name} 
                 td #{val.email}
                 td #{val.mobile}
                 
