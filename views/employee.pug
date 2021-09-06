@@ -1,0 +1,25 @@
+doctype html
+html
+   head
+      title first app
+   body
+      h1 Welcome
+      table(border= "1" , cellpadding ="10") 
+        thead 
+            th Name
+                button sort
+            th E-mail
+                button sort
+            th Mobile
+                button sort
+            th Salary
+                button sort
+            th Experiance
+                button sort
+        for val in allemployees
+            tr 
+                td #{val.name}
+                td #{val.email}
+                td #{val.mobile}
+                td #{val.salary}
+                td #{val.experiance}

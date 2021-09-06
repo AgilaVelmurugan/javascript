@@ -1,0 +1,48 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+10.101.53.15	CH1015BD01
+  	10.101.53.20	CH1020BD02
+  	10.101.53.25	CH1025BD03
+  	10.101.53.21	CH1021SF01
+  	10.101.53.31	CH1031SF02 
+  	10.101.53.11	meritgroup.com
+  	10.101.53.30	CH1030BD04
+  	10.101.53.23	TICKETING.MERITGROUP.COM
+  	10.101.53.51	MAPP.MERITGROUP.COM
+  	10.101.53.23	MQUID.MERITGROUP.COM
+  	10.101.53.12	CH1012VVA
+  	10.101.53.75	mprime.meritgroup.com
+  	10.101.53.75	qms.meritgroup.com
+        10.101.53.75	perftrack.meritgroup.com
+   	10.101.53.75	systrack.meritgroup.com
+   	10.101.53.32	mkonnect.meritgroup.com
+  	10.101.53.32 	ppm.meritgroup.com
+  	10.101.53.32 	self-service.meritgroup.com
+  	10.101.53.32 	talentmagnet.meritgroup.com
+  	10.101.53.32 	Wisebuddy.meritgroup.com
+   	10.101.53.75 	newscraft.meritgroup.com
+        10.101.53.51    omega.meritgroup.com
+        10.101.53.53	mprimeuat.meritgroup.com
+        10.101.53.75 	promise.meritgroup.com
+	10.101.53.51	self-service.meritgroup.com
+	10.101.53.75	databot.meritgroup.com
+  

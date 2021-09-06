@@ -1,0 +1,21 @@
+doctype html
+html
+   head
+      title first app
+   body
+      h1 Welcome
+      table(border= "1" , cellpadding ="10") 
+        thead 
+            th Name
+                button sort
+                    student.sort(#{allstudents.name})
+            th E-mail
+                button sort
+            th Mobile
+                button sort
+        for val in allstudents
+            tr 
+                td #{val.name}
+                td #{val.email}
+                td #{val.mobile}
+                
